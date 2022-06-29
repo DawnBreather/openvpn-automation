@@ -1,0 +1,860 @@
+{
+    "ResourceRecordSets": [
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.198.193.106"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "10 mx.zoho.com"
+                }, 
+                {
+                    "Value": "20 mx2.zoho.com"
+                }
+            ], 
+            "Type": "MX", 
+            "Name": "scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "ns-280.awsdns-35.com."
+                }, 
+                {
+                    "Value": "ns-1492.awsdns-58.org."
+                }, 
+                {
+                    "Value": "ns-969.awsdns-57.net."
+                }, 
+                {
+                    "Value": "ns-1678.awsdns-17.co.uk."
+                }
+            ], 
+            "Type": "NS", 
+            "Name": "scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1492.awsdns-58.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ], 
+            "Type": "SOA", 
+            "Name": "scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"google-site-verification=NZCiVG72uZ8hJ8D3-lO4hp_W1T89tl444nEQe_xV-ac\""
+                }, 
+                {
+                    "Value": "\"v=spf1 +mx +a ip4:52.203.67.217 include:zoho.com include:transmail.net-all\""
+                }, 
+                {
+                    "Value": "\"zoho-verification=zb14795418.zmverify.zoho.com\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "sendgrid.net"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "2109728.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"1+xZkVcVABLTyOGyxSTvS0KEus2vtpT7v88GriGP9Q=\""
+                }, 
+                {
+                    "Value": "\"m1+xZkVcVABLTyOGyxSTvS0KEus2vtpT7v88GriGP9Q=\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "_amazonses.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "9D26DBB3A64A89CD67691A4EC8B64086.FDE2E38BA02AE1EB7931BDE24E2D36B6.59bb62f5545ec.comodoca.com"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "_d4d9b59e5cf28d49b18ab449b7ca0db5.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DMARC1; p=none; rua=mailto:norby@scopicsoftware.com; ruf=mailto:norby@scopicsoftware.com\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "_dmarc.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7oT3ulMwPJs9RXgXDrI9UWU118pHEMohl3UbL3Jwp4oxp/9N3thh/3WCJnYV134zbEVolZwqaT3JsFEq/mQ/RpW/JnOZ3rnxqJPurb2bcfJol4SDxiWVObzHX31xnANzFcXnq1/5dMK5QvW4Jh7n0fm4+4ywqiy2QIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "1522905413783._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"bededy2afmei2vgr3xujl3mcop2nputm.dkim.amazonses.com\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "bededy2afmei2vgr3xujl3mcop2nputm._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"bidwb566bgmqmqgvigilzj5e2qvpazow.dkim.amazonses.com\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "bidwb566bgmqmqgvigilzj5e2qvpazow._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+Kd+ZyYJz7gFWPMCfBS4emR7MaQcVras8ZSisL8zs2jhyvmGN/nJSrnUuf+S8wjsl94iOTLsyGv6BqZZJVvXiL3gRUOZJdBx9uPwIbN1eR6o/QNwHaTwP1B98i1B+NAToIPYlUHAXzrlwb2z+CxcB6VB4Fy0A61/yBpA8kacg4QIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "krs._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"rloognrzyp7s2epq33xcb7sjxoyropen.dkim.amazonses.com\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "rloognrzyp7s2epq33xcb7sjxoyropen._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "s1.domainkey.u2109728.wl229.sendgrid.net"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "s1._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "s2.domainkey.u2109728.wl229.sendgrid.net"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "s2._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOEb2AHdPtw1LA7stiJzyIgizsG0mVacnvX4gmQcMACCgc+GVGlbLTCIdauLvOO6+93zClMqGBdPR5Ih5YJF44Tp7ez5qyLUEE2tRlWbdVmwNrhYTmLuPPBCDBtJFRx0ykpLRVHiWYA3BGr74NcnYYVFDq6/yN2/R/zhO96ohNnQIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "zoho._domainkey.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.213.243.13"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "adobeclientcontract.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.92.38.115"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "adobecontractexport.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.195.119.231"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "api-cpt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.214.208.222"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "awx.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.206.145.136"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "backup-asb.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "100.25.254.79"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "bs.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.174.57.164"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "car.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.198.193.106"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "careers.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "52.72.134.241"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "cb.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "payroll.scopicsoftware.com"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "chp-test.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "104.236.119.146"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "chp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "chroma-dev-761470406.us-east-2.elb.amazonaws.com"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "chroma-dev.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOEb2AHdPtw1LA7stiJzyIgizsG0mVacnvX4gmQcMACCgc+GVGlbLTCIdauLvOO6+93zClMqGBdPR5Ih5YJF44Tp7ez5qyLUEE2tRlWbdVmwNrhYTmLuPPBCDBtJFRx0ykpLRVHiWYA3BGr74NcnYYVFDq6/yN2/R/zhO96ohNnQIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "zoho._domainkey.scopicsoftware.com.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDezB688ifW5JGGMIXgZYCd8vrjKtmoHqIR7+EGaQulRmGZLPJqCOy2ut2VU2M1RURzR5WhdEbRKIgjeP4vJ6ogtYbD5xaa/Aw/6j0t+2wlipPjfc22E/+bHTK6NHKnRV6P8LdzOV4RnqiUGbIThwXD1q9m6OBVmgF4hTIPo9mndwIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "mailo._domainkey.dw.scopicsoftware.com.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOEb2AHdPtw1LA7stiJzyIgizsG0mVacnvX4gmQcMACCgc+GVGlbLTCIdauLvOO6+93zClMqGBdPR5Ih5YJF44Tp7ez5qyLUEE2tRlWbdVmwNrhYTmLuPPBCDBtJFRx0ykpLRVHiWYA3BGr74NcnYYVFDq6/yN2/R/zhO96ohNnQIDAQAB\""
+                }
+            ], 
+            "Type": "TXT", 
+            "Name": "zoho._domainkey.www.scopicsoftware.com.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.195.119.231"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "cpt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.87.85.56"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "dev-dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "18.204.143.118"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "dev-ewt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "23.20.63.43"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "dev-jenkins-dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "23.20.63.43"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "dev-server-jenkins-dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.215.237.216"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "100.25.53.122"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "ewt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "18.206.69.142"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "get.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "52.5.118.142"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "gst-test.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "52.5.118.142"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "gst.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "ns-925.awsdns-51.net"
+                }, 
+                {
+                    "Value": "ns-1361.awsdns-42.org"
+                }, 
+                {
+                    "Value": "ns-1674.awsdns-17.co.uk"
+                }, 
+                {
+                    "Value": "ns-483.awsdns-60.com"
+                }
+            ], 
+            "Type": "NS", 
+            "Name": "int.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "18.204.118.140"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "jenkins.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.199.154.121"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "jira.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "AliasTarget": {
+                "HostedZoneId": "Z32O12XQLNTSW2", 
+                "EvaluateTargetHealth": false, 
+                "DNSName": "kreo-live-network-alb-242083990.eu-west-1.elb.amazonaws.com."
+            }, 
+            "Type": "A", 
+            "Name": "kreo.scopicsoftware.com."
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "_385b51578af7e5e81a5c2c2d5be40abd.tljzshvwok.acm-validations.aws."
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "_06d46fb28d3ff2317d574c137bf499ed.kreo.scopicsoftware.com.", 
+            "TTL": 300
+        }, 
+        {
+            "AliasTarget": {
+                "HostedZoneId": "Z32O12XQLNTSW2", 
+                "EvaluateTargetHealth": false, 
+                "DNSName": "kreo-live-network-alb-242083990.eu-west-1.elb.amazonaws.com."
+            }, 
+            "Type": "A", 
+            "Name": "presence.kreo.scopicsoftware.com."
+        }, 
+        {
+            "AliasTarget": {
+                "HostedZoneId": "Z32O12XQLNTSW2", 
+                "EvaluateTargetHealth": false, 
+                "DNSName": "kreo-live-network-alb-242083990.eu-west-1.elb.amazonaws.com."
+            }, 
+            "Type": "A", 
+            "Name": "server.kreo.scopicsoftware.com."
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "_ea298fd09c2a895611d819bc277d75cc.tljzshvwok.acm-validations.aws."
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "_05634ee7992cc348b1c0b303de8cc63d.server.kreo.scopicsoftware.com.", 
+            "TTL": 300
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "sendgrid.net"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "link.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.198.193.106"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "mail.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "u2109728.wl229.sendgrid.net"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "marketing.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.168.130.65"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "monitor.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.198.168.244"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "otl.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.227.122.161"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "payroll.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.175.74.34"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "portal.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "104.236.234.155"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "prn.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "52.87.43.42"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "prst.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.175.11.46"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "rainloop.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "18.235.172.129"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "rb-filtering-tool.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.93.127.197"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "rmt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.239.191.170"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "rrs.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.207.14.88"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "scopicapi.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.87.85.56"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "server-dev-dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.215.237.216"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "server-dssp.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.169.224.32"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "sft.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "prod.skypebot.scopicsoftware.com"
+                }
+            ], 
+            "Type": "CNAME", 
+            "Name": "skypebot.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "45.55.76.228"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "prod.skypebot.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "35.174.57.164"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "stage.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.238.35.31"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "sts2.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.93.127.197"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "test-rmt.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "1.1.1.4"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "testing-record.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.226.24.62"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "texting-app.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.226.24.62"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "texting.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.232.148.206"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "time.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.232.244.152"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "ttet.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.219.101.149"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "twa.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "18.233.28.230"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "twassistant.scopicsoftware.com.", 
+            "TTL": 600
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1746.awsdns-26.co.uk"
+                }, 
+                {
+                    "Value": "ns-1128.awsdns-13.org"
+                }, 
+                {
+                    "Value": "ns-846.awsdns-41.net"
+                }, 
+                {
+                    "Value": "ns-359.awsdns-44.com"
+                }
+            ], 
+            "Type": "NS", 
+            "Name": "vpn.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "34.198.193.106"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "www.scopicsoftware.com.", 
+            "TTL": 60
+        }, 
+        {
+            "ResourceRecords": [
+                {
+                    "Value": "3.92.158.240"
+                }
+            ], 
+            "Type": "A", 
+            "Name": "zoho-pmportal.scopicsoftware.com.", 
+            "TTL": 60
+        }
+    ]
+}

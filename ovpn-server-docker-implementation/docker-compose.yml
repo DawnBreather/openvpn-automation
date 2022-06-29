@@ -1,0 +1,42 @@
+# First of all let's consider you are in the same folder where you have docker-compose.yml located
+# Brininging up the composition: docker-compose up -d
+# Stopping: docker-compose down
+# Restarting specific service:
+#  * docker-compose stop ${name_of_the_service} (i.e. docker-compose stop openvpn)
+#  * docker-compose kill ${name_of_the_service} (will destroy the container)
+#  * docker-compose up --no-deps ${name_of_the_service} (will bring up the container without touching dependant ones if any)
+# Checking logs:
+#  * docker logs ${name_of_the_service}
+
+version: '3'
+services:
+  openvpn:
+    image: ventz/openvpn
+    container_name: openvpn-server
+    restart: always
+    volumes:
+    # We should have content of s3://scopicvpn sync into folder s3-scopicvpn-bucket. That's it.
+    - /root/openvpn/s3-scopicvpn-bucket/openvpn/server.conf:/etc/openvpn/server.conf:ro
+    - /root/openvpn/s3-scopicvpn-bucket/openvpn/keys/:/etc/openvpn/keys:ro
+    - /root/openvpn/s3-scopicvpn-bucket/ccd:/data/ccd:ro
+    - /root/openvpn/openvpn-status.log:/etc/openvpn/openvpn-status.log
+    # Important note! docker-entrypoint contains iptables rules. Please edit if required.
+    - /root/openvpn/s3-scopicvpn-bucket/docker-entrypoint.sh:/start-vpn.sh:ro
+    # We bind network of the host machine to OpenVPN.
+    # That was done to allow VPN clients send DNS requests to UDP:53 exposed by dnsmasq container.
+    network_mode: host
+    cap_add:
+    - NET_ADMIN
+
+  dnsmasq:
+    image: jpillora/dnsmasq
+    container_name: dnsmasq
+    restart: always
+    volumes:
+    - /root/openvpn/s3-scopicvpn-bucket/openvpn/dnsmasq.conf:/etc/dnsmasq.conf:ro
+    logging:
+      options:
+        max-size: 50m
+    network_mode: host
+    cap_add:
+    - NET_ADMIN

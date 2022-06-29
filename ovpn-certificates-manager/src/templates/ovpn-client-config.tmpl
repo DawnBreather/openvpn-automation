@@ -1,0 +1,33 @@
+client
+topology subnet
+dev tun
+proto udp
+remote {{.ServerHost}} {{.ServerPort}}
+
+nobind
+persist-key
+persist-tun
+mute-replay-warnings
+
+ns-cert-type server
+comp-lzo
+verb 3
+mute 20
+script-security 2
+key-direction 1
+
+<ca>
+{{.Ca}}
+</ca>
+
+<cert>
+{{.Crt}}
+</cert>
+
+<key>
+{{.Key}}
+</key>
+
+<tls-auth>
+{{.Ta}}
+</tls-auth>

@@ -1,0 +1,15 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Zone Helper for scopicsoftware.com domain
+
+[Service]
+Type=simple
+WorkingDirectory=/etc/bind/zones
+ExecStart=/bin/sh -c 'while : ;do /etc/bind/zones/zone-helper >> /var/log/zone-helper.log && /etc/bind/zones/dns-cname-resolver /etc/bind/zones/db.scopicsoftware.com 1.1.1.1 scopicsoftware.com && echo "" >> /etc/bind/zones/db.scopicsoftware.com && /bin/systemctl restart bind9 ; sleep 900 ;done'
+Restart=always
+StandardOutput=journal
+User=root
+KillMode=process
+TimeoutSec=infinity

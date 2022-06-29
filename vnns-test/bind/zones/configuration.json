@@ -1,0 +1,8 @@
+{"HashInfoPath":"hashInfo.json",
+"Route53OutputJsonPath":"/etc/bind/zones/scopicsoftware.com.json",
+"Bind9ZoneFilePath":"/etc/bind/zones/db.scopicsoftware.com",
+"Bind9ZoneFileTemplatePath":"/etc/bind/zones/db.scopicsoftware.com-template",
+"RecordsTypeFilter":"|A|CNAME|MX|",
+"AWS_ACCESS_KEY_ID":"AKIAICZONPPR7GVUEKUQ",
+"AWS_SECRET_ACCESS_KEY":"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",
+"AwsRoute53ZoneId":"ZDV2KD9WN75FO"}

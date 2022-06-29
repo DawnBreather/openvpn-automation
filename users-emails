@@ -1,0 +1,40 @@
+Introduction into VPN - guideline
+
+#
+#
+
+Thank you for the information provided = )
+
+Configuration files created and sent to you over email.
+
+Please follow this guideline to set up VPN client on your machines:
+https://s3.amazonaws.com/scopic-configs/VPN+Instructions++v1.docx
+
+In case you face any issues - please let me know and I will jump into to assist you with the deployment and troubleshooting.
+
+
+
+
+Introduction into VPN
+
+#
+#
+
+Hello,
+
+My name is Slava, am DevOps responsible for VPN in Scopic Software. Happy to welcome you = )
+ 
+We need to join you into our corporate VPN network and for that please provide me with some information from your side:
+1) OS of devices you use for work (except smartphones)
+2) Number of devices
+
+Examples
+* 2 Windows devices
+* 1 Ubuntu device and 1 Windows virtual machine
+* 1 Mac and 1 Windows device
+
+Based on the information provided we will generate configuration files for you and send further instructions.
+
+Thank you = )
+
+ 

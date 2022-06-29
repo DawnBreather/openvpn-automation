@@ -1,0 +1,132 @@
+$TTL	604800
+@	IN	SOA	vnns.scopicsoftware.com. admin.scopicsoftware.com. (
+			 63		; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+	IN	NS	vnns.scopicsoftware.com.
+
+; name servers - A records
+vnns.scopicsoftware.com.				IN	A	10.252.186.254
+
+; hosts
+time.scopicsoftware.com.				IN	A	10.252.93.66
+test-site.scopicsoftware.com.				IN	A	10.252.186.254
+vpn-status.scopicsoftware.com.				IN	A	10.252.186.254
+portal.scopicsoftware.com.				IN	A	10.252.28.148
+prst.scopicsoftware.com.				IN	A	10.252.112.216
+prn.scopicsoftware.com.					IN	A	10.252.205.107
+new-rmt.scopicsoftware.com.				IN	A	10.252.185.156
+rmt.scopicsoftware.com.					IN	A	10.252.185.156
+invoicing-tool.scopicsoftware.com.			IN	A	10.252.245.132
+escrow-alert-tool.scopicsoftware.com.			IN	A	10.252.254.176
+bonus-tool.scopicsoftware.com.				IN	A	10.252.174.13
+bonus.scopicdev.com					IN	A	10.252.174.13
+bonus-dev.scopicdev.com					IN	A	10.252.174.13
+login-location-tracking.scopicsoftware.com.		IN	A	10.252.207.4
+recruiter-box.scopicsoftware.com.			IN	A	10.252.223.121
+rama.scopicsoftware.com.				IN	A	10.252.43.86
+texting-app.scopicsoftware.com.				IN	A	10.252.1.207
+ttet.scopicsoftware.com.				IN	A	10.252.208.48
+interview-reminder.scopicsoftware.com.			IN	A	10.252.223.121
+jira-timetask.scopicsoftware.com.			IN	A	10.252.147.43
+job-posting-tool.scopicsoftware.com.			IN	A	10.252.72.113
+acuity-scheduling.scopicsoftware.com.			IN	A	10.252.223.121
+brm.scopicsoftware.com.					IN	A	10.252.72.113
+hours-deficit-tool.scopicsoftware.com.			IN	A	10.252.50.130
+vacation-tracking.scopicsoftware.com.			IN	A	10.252.50.130
+teamwork2bamboohr.scopicsoftware.com.			IN	A	10.252.212.129
+teamgant.scopicsoftware.com.				IN	A	10.252.208.48
+beanstalk-activity-tracker.scopicsoftware.com.		IN	A	10.252.72.120
+api-tt.scopicsoftware.com.				IN	A	10.252.93.66
+recruiting-activity-report.scopicsoftware.com.		IN	A	10.252.184.193
+cv-review-tool.scopicsoftware.com.			IN	A	10.252.50.167
+tw2tt.scopicsoftware.com.				IN	A	10.252.72.113
+otl.scopicsoftware.com.					IN	A	10.252.30.113
+scopicsoftware.com.					IN	A	34.198.193.106
+ewt.scopicsoftware.com.					IN	A	10.252.72.215
+jpat.scopicsoftware.com.				IN	A	10.252.168.123
+locationtracking.scopicsoftware.com.			IN	A	10.252.21.186
+scopicapi.scopicsoftware.com.				IN	A	10.252.117.24
+git-backups-verificator.scopicsoftware.com.		IN	A	10.252.187.233
+sft.scopicosftware.com.					IN	A	10.252.184.85
+scopicsoftware.com.		IN		MX		10 mx.zoho.com.
+scopicsoftware.com.		IN		MX		20 mx2.zoho.com.
+2109728.scopicsoftware.com.		IN		CNAME		sendgrid.net.
+_d4d9b59e5cf28d49b18ab449b7ca0db5.scopicsoftware.com.		IN		CNAME		9D26DBB3A64A89CD67691A4EC8B64086.FDE2E38BA02AE1EB7931BDE24E2D36B6.59bb62f5545ec.comodoca.com.
+s1._domainkey.scopicsoftware.com.		IN		CNAME		s1.domainkey.u2109728.wl229.sendgrid.net.
+s2._domainkey.scopicsoftware.com.		IN		CNAME		s2.domainkey.u2109728.wl229.sendgrid.net.
+adobeclientcontract.scopicsoftware.com.		IN		A		3.213.243.13
+adobecontractexport.scopicsoftware.com.		IN		A		3.92.38.115
+api-cpt.scopicsoftware.com.		IN		A		34.195.119.231
+backup-asb.scopicsoftware.com.		IN		A		34.206.145.136
+bs.scopicsoftware.com.		IN		A		100.25.254.79
+car.scopicsoftware.com.		IN		A		35.174.57.164
+careers.scopicsoftware.com.		IN		A		34.198.193.106
+cb.scopicsoftware.com.		IN		A		52.72.134.241
+chp-test.scopicsoftware.com.		IN		CNAME		payroll.scopicsoftware.com.
+chp.scopicsoftware.com.		IN		A		104.236.119.146
+chroma-dev.scopicsoftware.com.		IN		CNAME		chroma-dev-761470406.us-east-2.elb.amazonaws.com.
+cpt.scopicsoftware.com.		IN		A		34.195.119.231
+crash-reports.scopicsoftware.com.		IN		A		52.33.206.213
+dev-asb.scopicsoftware.com.		IN		A		54.80.232.136
+dev-dssp.scopicsoftware.com.		IN		A		3.87.85.56
+dev-tower.scopicsoftware.com.		IN		A		3.92.104.30
+drr.scopicsoftware.com.		IN		A		104.236.227.177
+dssp.scopicsoftware.com.		IN		A		23.22.159.4
+get.scopicsoftware.com.		IN		A		18.206.69.142
+gst-test.scopicsoftware.com.		IN		A		52.5.118.142
+gst.scopicsoftware.com.		IN		A		52.5.118.142
+ib.scopicsoftware.com.		IN		A		54.86.69.153
+jenkins.scopicsoftware.com.		IN		A		18.204.118.140
+jira-timesheet.scopicsoftware.com.		IN		A		52.45.143.170
+jira.scopicsoftware.com.		IN		A		34.199.154.121
+jit.scopicsoftware.com.		IN		A		52.86.209.91
+_266bd7501fa61bcea34d62cdde26b9ca.kreo-hotfix.scopicsoftware.com.		IN		CNAME		_a2b936fa6e55a1b2894876a97d0b7d92.tljzshvwok.acm-validations.aws.
+_93da6f79e8ba9f1149f5a344fefdc7ac.server.kreo-hotfix.scopicsoftware.com.		IN		CNAME		_b78f4ddad4984b2c8b47588340fdd127.tljzshvwok.acm-validations.aws.
+_3aa0919591d6370eaac66c9e02865fc9.kreo-staging.scopicsoftware.com.		IN		CNAME		_82be8265d65406fa46d9443ecdf747ac.tljzshvwok.acm-validations.aws.
+_55a4ece56564cc706a9a45c3e65d866e.server.kreo-staging.scopicsoftware.com.		IN		CNAME		_bb1f3ccb6cfbd069d25a91f27fdfa6b2.tljzshvwok.acm-validations.aws.
+_06d46fb28d3ff2317d574c137bf499ed.kreo.scopicsoftware.com.		IN		CNAME		_385b51578af7e5e81a5c2c2d5be40abd.tljzshvwok.acm-validations.aws.
+_05634ee7992cc348b1c0b303de8cc63d.server.kreo.scopicsoftware.com.		IN		CNAME		_ea298fd09c2a895611d819bc277d75cc.tljzshvwok.acm-validations.aws.
+link.scopicsoftware.com.		IN		CNAME		sendgrid.net.
+mail.scopicsoftware.com.		IN		A		34.198.193.106
+marketing.scopicsoftware.com.		IN		CNAME		u2109728.wl229.sendgrid.net.
+monitor.scopicsoftware.com.		IN		A		35.168.130.65
+nsint.scopicsoftware.com.		IN		A		1.1.1.1
+payroll.scopicsoftware.com.		IN		A		34.227.122.161
+prst-test.scopicsoftware.com.		IN		A		34.225.203.69
+rainloop.scopicsoftware.com.		IN		A		35.175.11.46
+rb-filtering-tool.scopicsoftware.com.		IN		A		18.235.172.129
+rrs.scopicsoftware.com.		IN		A		34.239.191.170
+scvv-staging.scopicsoftware.com.		IN		A		34.238.208.74
+server.scvv-staging.scopicsoftware.com.		IN		A		34.238.208.74
+scvv-test.scopicsoftware.com.		IN		A		34.238.208.74
+server.scvv-test.scopicsoftware.com.		IN		A		34.238.208.74
+server2.scvv-test.scopicsoftware.com.		IN		A		34.238.208.74
+scvv.scopicsoftware.com.		IN		A		34.235.55.155
+server-dev-dssp.scopicsoftware.com.		IN		A		3.87.85.56
+server-dssp.scopicsoftware.com.		IN		A		23.22.159.4
+sft.scopicsoftware.com.		IN		A		35.169.224.32
+skypebot.scopicsoftware.com.		IN		CNAME		prod.skypebot.scopicsoftware.com.
+prod.skypebot.scopicsoftware.com.		IN		A		45.55.76.228
+stage.scopicsoftware.com.		IN		A		35.174.57.164
+sts2.scopicsoftware.com.		IN		A		34.238.35.31
+test-portal.scopicsoftware.com.		IN		A		3.86.37.117
+test-rmt.scopicsoftware.com.		IN		A		3.93.127.197
+texting.scopicsoftware.com.		IN		A		34.226.24.62
+tungtestagain002.scopicsoftware.com.		IN		A		3.209.28.125
+www.scopicsoftware.com.		IN		A		34.198.193.106
+zoho-pmportal.scopicsoftware.com.		IN		A		3.92.158.240
+kreo-hotfix.scopicsoftware.com.		IN		CNAME		dualstack.kreo-hotfix-lb-688164844.eu-west-1.elb.amazonaws.com.
+presence.kreo-hotfix.scopicsoftware.com.		IN		CNAME		dualstack.kreo-hotfix-lb-688164844.eu-west-1.elb.amazonaws.com.
+server.kreo-hotfix.scopicsoftware.com.		IN		CNAME		dualstack.kreo-hotfix-lb-688164844.eu-west-1.elb.amazonaws.com.
+kreo-staging.scopicsoftware.com.		IN		CNAME		dualstack.kreo-staging-lb-707132522.eu-west-1.elb.amazonaws.com.
+presence.kreo-staging.scopicsoftware.com.		IN		CNAME		dualstack.kreo-staging-lb-707132522.eu-west-1.elb.amazonaws.com.
+server.kreo-staging.scopicsoftware.com.		IN		CNAME		dualstack.kreo-staging-lb-707132522.eu-west-1.elb.amazonaws.com.
+kreo.scopicsoftware.com.		IN		CNAME		dualstack.kreo-prod-lb-839552211.eu-west-1.elb.amazonaws.com.
+presence.kreo.scopicsoftware.com.		IN		CNAME		dualstack.kreo-prod-lb-839552211.eu-west-1.elb.amazonaws.com.
+server.kreo.scopicsoftware.com.		IN		CNAME		dualstack.kreo-prod-lb-839552211.eu-west-1.elb.amazonaws.com.
+

@@ -1,0 +1,18 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+#view "eu-west-1.elb.amazonaws.com" {
+#	recursion yes;
+#	forward only;
+#	forwarders {1.1.1.1;};
+#};
+
+zone "scopicsoftware.com" IN {
+	type master;
+	file "/etc/bind/zones/db.scopicsoftware.com";
+};

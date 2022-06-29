@@ -1,0 +1,63 @@
+$TTL	604800
+@	IN	SOA	vnns.scopicsoftware.com. admin.scopicsoftware.com. (
+			 ;;serial;;	; Serial
+			 604800		; Refresh
+			86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+	IN	NS	vnns.scopicsoftware.com.
+
+; name servers - A records
+vnns.scopicsoftware.com.				IN	A	10.253.255.122 ;10.252.186.254
+
+; hosts
+zoho-pmportal.scopicsoftware.com.			IN	A	10.253.253.210
+jira.scopicsoftware.com.				IN	A	10.253.255.199
+chp.scopicsoftawre.com.					IN	A	10.253.255.196
+api-cpt.scopicsoftware.com.				IN	A	10.253.253.211
+cpt.scopicsoftware.com.					IN	A	10.253.253.211
+time.scopicsoftware.com.				IN	A	10.253.255.207 ;10.252.93.66
+test-site.scopicsoftware.com.				IN	A	10.253.255.122 ;10.252.186.254
+vpn-status.scopicsoftware.com.				IN	A	10.253.255.122 ;10.252.186.254
+portal.scopicsoftware.com.				IN	A	10.253.253.238 ;10.252.28.148
+prst.scopicsoftware.com.				IN	A	10.253.255.139 ;10.252.112.216
+prn.scopicsoftware.com.					IN	A	10.253.255.202 ;10.252.205.107
+new-rmt.scopicsoftware.com.				IN	A	10.253.253.212 ;10.252.185.156
+rmt.scopicsoftware.com.					IN	A	10.253.253.212 ;10.252.185.156
+invoicing-tool.scopicsoftware.com.			IN	A	10.253.255.135 ;10.252.245.132
+escrow-alert-tool.scopicsoftware.com.			IN	A	10.253.255.128 ;10.252.254.176
+bonus-tool.scopicsoftware.com.				IN	A	10.253.253.244 ;10.252.174.13
+bonus.scopicdev.com					IN	A	10.253.253.244 ;10.252.174.13
+bonus-dev.scopicdev.com					IN	A	10.253.253.244 ;10.252.174.13
+login-location-tracking.scopicsoftware.com.		IN	A	10.253.255.126 ;10.252.207.4
+recruiter-box.scopicsoftware.com.			IN	A	10.253.255.116 ;10.252.223.121
+rama.scopicsoftware.com.				IN	A	10.253.255.121 ;10.252.43.86
+texting.scopicsoftware.com.				IN	A	10.253.255.119
+texting-app.scopicsoftware.com.				IN	A	10.253.255.119 ;10.252.1.207
+ttet.scopicsoftware.com.				IN	A	10.253.255.118 ;10.252.208.48
+interview-reminder.scopicsoftware.com.			IN	A	10.253.255.116 ;10.252.223.121
+jira-timetask.scopicsoftware.com.			IN	A	10.253.255.113 ;10.252.147.43
+job-posting-tool.scopicsoftware.com.			IN	A	10.253.255.111 ;10.252.72.113
+acuity-scheduling.scopicsoftware.com.			IN	A	10.253.255.116 ;10.252.223.121
+brm.scopicsoftware.com.					IN	A	10.253.255.111 ;10.252.72.113
+hours-deficit-tool.scopicsoftware.com.			IN	A	10.253.255.196 ;10.252.50.130
+vacation-tracking.scopicsoftware.com.			IN	A	10.253.255.196 ;10.252.50.130
+teamwork2bamboohr.scopicsoftware.com.			IN	A	10.253.255.109 ;10.252.212.129
+teamgant.scopicsoftware.com.				IN	A	10.253.255.118 ;10.252.208.48
+beanstalk-activity-tracker.scopicsoftware.com.		IN	A	10.253.255.115 ;10.252.72.120
+api-tt.scopicsoftware.com.				IN	A	10.253.255.207 ;10.252.93.66
+recruiting-activity-report.scopicsoftware.com.		IN	A	10.253.255.108 ;10.252.184.193
+cv-review-tool.scopicsoftware.com.			IN	A	10.253.255.107 ;10.252.50.167
+tw2tt.scopicsoftware.com.				IN	A	10.253.255.111 ;10.252.72.113
+otl.scopicsoftware.com.					IN	A	10.253.255.129 ;10.252.30.113
+scopicsoftware.com.					IN	A	34.198.193.106
+ewt.scopicsoftware.com.					IN	A	10.253.255.200 ;10.252.72.215
+jpat.scopicsoftware.com.				IN	A	10.253.253.243 ;10.252.168.123
+locationtracking.scopicsoftware.com.			IN	A	10.253.253.242 ;10.252.21.186
+scopicapi.scopicsoftware.com.				IN	A	10.253.253.235 ;10.252.117.24
+git-backups-verificator.scopicsoftware.com.		IN	A	10.253.253.213 ;10.252.187.233
+sft.scopicsoftware.com.					IN	A	10.253.253.208 ;10.252.184.85
+bs.scopicsoftware.com.					IN	A	10.253.253.239 ;10.252.248.75
+;;external-dns-records;;
